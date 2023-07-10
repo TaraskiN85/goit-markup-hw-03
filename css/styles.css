@@ -35,7 +35,7 @@ ol {
 /* general styles */
 .container {
   width: 100%;
-  max-width: 1410px;
+  max-width: 1470px;
   padding: 0 15px;
   outline: 2px solid grey;
   margin: 0 auto;
@@ -105,8 +105,13 @@ ol {
 }
 
 /* header */
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-container {
   display: flex;
+  padding-right: 156px;
 }
 
 .logo {
@@ -126,10 +131,12 @@ ol {
 
 .nav {
   display:flex;
+  flex-grow: 1;
 }
 
 .header-nav-list {
   display: flex;
+
 }
 
 .header-address {
@@ -138,6 +145,7 @@ ol {
 
 .header-address-list {
   display: flex;
+  gap: 40px;
 }
 .header-link {
   color: var(--navyblue);
