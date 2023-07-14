@@ -152,6 +152,9 @@ img {
 .header-nav-list {
   display: flex;
   gap: 40px;
+}
+
+.header-nav-item {
   padding: 24px 0;
 }
 
@@ -319,15 +322,9 @@ img {
   padding: 12px 24px;
 }
 
-.portfolio-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 72px;
-}
-
 .portfolio-filter {
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .portfolio-showcase {
