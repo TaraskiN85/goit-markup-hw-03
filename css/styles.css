@@ -138,10 +138,6 @@ img {
   text-transform: uppercase;
 }
 
-.header-logo {
-  padding: 24px 0;
-}
-
 .header-logo span {
   color: var(--navyblue);
 }
@@ -179,6 +175,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-address-link {
