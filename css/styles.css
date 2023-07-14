@@ -138,6 +138,10 @@ img {
   text-transform: uppercase;
 }
 
+.header-logo {
+  padding: 24px 0;
+}
+
 .header-logo span {
   color: var(--navyblue);
 }
